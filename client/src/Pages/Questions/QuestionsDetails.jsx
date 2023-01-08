@@ -71,7 +71,7 @@ const QuestionsDetails = () => {
     const dispatch = useDispatch()
     const User = useSelector((state) => (state.currentUserReducer))
     const location = useLocation()
-    const url = 'https://stackoverflow-clone-xi.vercel.app'
+    const url = 'https://stackoverflow-clone-balajia.vercel.app'
 
     const handlePostAns = (e, answerLength) =>{
         e.preventDefault()
